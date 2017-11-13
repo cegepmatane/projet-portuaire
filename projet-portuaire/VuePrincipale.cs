@@ -13,9 +13,5 @@ namespace projet_portuaire{
         public VuePrincipale(){
             InitializeComponent();
         }
-
-        private void poidsBateaux_Click(object sender, EventArgs e) {
-            Application.Exit();
-        }
     }
 }

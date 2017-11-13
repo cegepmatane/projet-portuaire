@@ -33,13 +33,13 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.bateauxOnglet = new System.Windows.Forms.TabPage();
             this.tableauBateaux = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.armateuBateaux = new System.Windows.Forms.Label();
+            this.matieresDangereuseBateaux = new System.Windows.Forms.Label();
+            this.tailleBateaux = new System.Windows.Forms.Label();
             this.poidsBateaux = new System.Windows.Forms.Label();
             this.armateursOnglet = new System.Windows.Forms.TabPage();
             this.cargaisonsOnglet = new System.Windows.Forms.TabPage();
-            this.tailleBateaux = new System.Windows.Forms.Label();
-            this.matieresDangereuseBateaux = new System.Windows.Forms.Label();
-            this.armateuBateaux = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelTab.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.bateauxOnglet.SuspendLayout();
@@ -103,6 +103,54 @@
             this.tableauBateaux.Size = new System.Drawing.Size(511, 43);
             this.tableauBateaux.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.LightGray;
+            this.label2.Location = new System.Drawing.Point(316, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label2.Size = new System.Drawing.Size(102, 43);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Matières dangereuses";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // armateuBateaux
+            // 
+            this.armateuBateaux.BackColor = System.Drawing.Color.LightGray;
+            this.armateuBateaux.Location = new System.Drawing.Point(418, 0);
+            this.armateuBateaux.Margin = new System.Windows.Forms.Padding(0);
+            this.armateuBateaux.Name = "armateuBateaux";
+            this.armateuBateaux.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.armateuBateaux.Size = new System.Drawing.Size(93, 43);
+            this.armateuBateaux.TabIndex = 3;
+            this.armateuBateaux.Text = "Armateur";
+            this.armateuBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // matieresDangereuseBateaux
+            // 
+            this.matieresDangereuseBateaux.BackColor = System.Drawing.Color.LightGray;
+            this.matieresDangereuseBateaux.Location = new System.Drawing.Point(200, 0);
+            this.matieresDangereuseBateaux.Margin = new System.Windows.Forms.Padding(0);
+            this.matieresDangereuseBateaux.Name = "matieresDangereuseBateaux";
+            this.matieresDangereuseBateaux.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.matieresDangereuseBateaux.Size = new System.Drawing.Size(116, 43);
+            this.matieresDangereuseBateaux.TabIndex = 2;
+            this.matieresDangereuseBateaux.Text = "Matières dangereuses";
+            this.matieresDangereuseBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tailleBateaux
+            // 
+            this.tailleBateaux.BackColor = System.Drawing.Color.LightGray;
+            this.tailleBateaux.Location = new System.Drawing.Point(0, 0);
+            this.tailleBateaux.Margin = new System.Windows.Forms.Padding(0);
+            this.tailleBateaux.Name = "tailleBateaux";
+            this.tailleBateaux.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.tailleBateaux.Size = new System.Drawing.Size(100, 43);
+            this.tailleBateaux.TabIndex = 1;
+            this.tailleBateaux.Text = "Taille";
+            this.tailleBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // poidsBateaux
             // 
             this.poidsBateaux.BackColor = System.Drawing.Color.LightGray;
@@ -133,55 +181,6 @@
             this.cargaisonsOnglet.TabIndex = 2;
             this.cargaisonsOnglet.Text = "Cargaisons";
             this.cargaisonsOnglet.UseVisualStyleBackColor = true;
-            // 
-            // tailleBateaux
-            // 
-            this.tailleBateaux.BackColor = System.Drawing.Color.LightGray;
-            this.tailleBateaux.Location = new System.Drawing.Point(0, 0);
-            this.tailleBateaux.Margin = new System.Windows.Forms.Padding(0);
-            this.tailleBateaux.Name = "tailleBateaux";
-            this.tailleBateaux.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tailleBateaux.Size = new System.Drawing.Size(100, 43);
-            this.tailleBateaux.TabIndex = 1;
-            this.tailleBateaux.Text = "Taille";
-            this.tailleBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tailleBateaux.Click += new System.EventHandler(this.poidsBateaux_Click);
-            // 
-            // matieresDangereuseBateaux
-            // 
-            this.matieresDangereuseBateaux.BackColor = System.Drawing.Color.LightGray;
-            this.matieresDangereuseBateaux.Location = new System.Drawing.Point(200, 0);
-            this.matieresDangereuseBateaux.Margin = new System.Windows.Forms.Padding(0);
-            this.matieresDangereuseBateaux.Name = "matieresDangereuseBateaux";
-            this.matieresDangereuseBateaux.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.matieresDangereuseBateaux.Size = new System.Drawing.Size(116, 43);
-            this.matieresDangereuseBateaux.TabIndex = 2;
-            this.matieresDangereuseBateaux.Text = "Matières dangereuses";
-            this.matieresDangereuseBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // armateuBateaux
-            // 
-            this.armateuBateaux.BackColor = System.Drawing.Color.LightGray;
-            this.armateuBateaux.Location = new System.Drawing.Point(418, 0);
-            this.armateuBateaux.Margin = new System.Windows.Forms.Padding(0);
-            this.armateuBateaux.Name = "armateuBateaux";
-            this.armateuBateaux.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.armateuBateaux.Size = new System.Drawing.Size(93, 43);
-            this.armateuBateaux.TabIndex = 3;
-            this.armateuBateaux.Text = "Armateur";
-            this.armateuBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.LightGray;
-            this.label2.Location = new System.Drawing.Point(316, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(102, 43);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Matières dangereuses";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VuePrincipale
             // 
