@@ -31,8 +31,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.bateauxOnglet = new System.Windows.Forms.TabPage();
+            this.armateursOnglet = new System.Windows.Forms.TabPage();
+            this.cargaisonsOnglet = new System.Windows.Forms.TabPage();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -54,33 +55,43 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.bateauxOnglet);
+            this.tabControl1.Controls.Add(this.armateursOnglet);
+            this.tabControl1.Controls.Add(this.cargaisonsOnglet);
             this.tabControl1.Location = new System.Drawing.Point(3, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(531, 609);
             this.tabControl1.TabIndex = 0;
             // 
-            // tabPage1
+            // bateauxOnglet
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(523, 580);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.bateauxOnglet.Location = new System.Drawing.Point(4, 25);
+            this.bateauxOnglet.Name = "bateauxOnglet";
+            this.bateauxOnglet.Padding = new System.Windows.Forms.Padding(3);
+            this.bateauxOnglet.Size = new System.Drawing.Size(523, 580);
+            this.bateauxOnglet.TabIndex = 0;
+            this.bateauxOnglet.Text = "Bateaux";
+            this.bateauxOnglet.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // armateursOnglet
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 71);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.armateursOnglet.Location = new System.Drawing.Point(4, 25);
+            this.armateursOnglet.Name = "armateursOnglet";
+            this.armateursOnglet.Padding = new System.Windows.Forms.Padding(3);
+            this.armateursOnglet.Size = new System.Drawing.Size(523, 580);
+            this.armateursOnglet.TabIndex = 1;
+            this.armateursOnglet.Text = "Armateurs";
+            this.armateursOnglet.UseVisualStyleBackColor = true;
+            // 
+            // cargaisonsOnglet
+            // 
+            this.cargaisonsOnglet.Location = new System.Drawing.Point(4, 25);
+            this.cargaisonsOnglet.Name = "cargaisonsOnglet";
+            this.cargaisonsOnglet.Size = new System.Drawing.Size(523, 580);
+            this.cargaisonsOnglet.TabIndex = 2;
+            this.cargaisonsOnglet.Text = "Cargaisons";
+            this.cargaisonsOnglet.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -102,8 +113,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage bateauxOnglet;
+        private System.Windows.Forms.TabPage armateursOnglet;
+        private System.Windows.Forms.TabPage cargaisonsOnglet;
     }
 }
 
