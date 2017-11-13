@@ -150,6 +150,7 @@
             this.tailleBateaux.TabIndex = 1;
             this.tailleBateaux.Text = "Taille";
             this.tailleBateaux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tailleBateaux.Click += new System.EventHandler(this.tailleBateaux_Click);
             // 
             // poidsBateaux
             // 

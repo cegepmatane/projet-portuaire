@@ -13,5 +13,11 @@ namespace projet_portuaire{
         public VuePrincipale(){
             InitializeComponent();
         }
+
+        private void tailleBateaux_Click(object sender, EventArgs e)
+        {
+            // For Add New Row (Loop this code for add multiple rows)
+            tableauBateaux.RowCount = tableauBateaux.RowCount + 1;
+        }
     }
 }
