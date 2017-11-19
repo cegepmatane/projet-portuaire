@@ -16,13 +16,6 @@ namespace projet_portuaire{
             initialisationImage();
         }
 
-        private void tailleBateaux_Click(object sender, EventArgs e)
-        {
-            // For Add New Row (Loop this code for add multiple rows)
-            tableauBateaux.RowCount = tableauBateaux.RowCount + 1;
-        }
-
-
         private void initialisationImage()
         {
             
@@ -32,6 +25,12 @@ namespace projet_portuaire{
         {
             fenetrePopUp = new Fenetre();
             fenetrePopUp.Show();
+            ListViewItem listeItemVue = new ListViewItem("Hello");
+            listeItemVue.SubItems.Add("Mon");
+            listeItemVue.SubItems.Add("Nom");
+            listeItemVue.SubItems.Add("Est");
+            listeItemVue.SubItems.Add("Francis");
+            vueListeBateau.Items.Add(listeItemVue);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -62,6 +61,10 @@ namespace projet_portuaire{
         {
             fenetrePopUp = new Fenetre();
             fenetrePopUp.Show();
+        }
+
+        private void bateauTableTemplate_Paint(object sender, PaintEventArgs e)
+        {
         }
     }
 }
