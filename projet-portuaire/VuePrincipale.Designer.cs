@@ -37,15 +37,15 @@
             this.panelTab = new System.Windows.Forms.Panel();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.bateauxOnglet = new System.Windows.Forms.TabPage();
-            this.tableauListeBateau = new System.Windows.Forms.ListView();
-            this.nomColoneTailleBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.nomColonePoidsBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.nomColoneMatieresDangereusesBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.nomColoneArmateurBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.armateursOnglet = new System.Windows.Forms.TabPage();
             this.cargaisonsOnglet = new System.Windows.Forms.TabPage();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.nomColoneTailleBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nomColonePoidsBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nomColoneMatieresDangereusesBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nomColoneCargaisonsBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nomColoneArmateurBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tableauListeBateau = new System.Windows.Forms.ListView();
             this.panelImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -157,46 +157,6 @@
             this.bateauxOnglet.Text = "Bateaux";
             this.bateauxOnglet.UseVisualStyleBackColor = true;
             // 
-            // tableauListeBateau
-            // 
-            this.tableauListeBateau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.nomColoneTailleBateau,
-            this.nomColonePoidsBateau,
-            this.nomColoneMatieresDangereusesBateau,
-            this.columnHeader4,
-            this.nomColoneArmateurBateau});
-            this.tableauListeBateau.GridLines = true;
-            this.tableauListeBateau.Location = new System.Drawing.Point(8, 5);
-            this.tableauListeBateau.Name = "tableauListeBateau";
-            this.tableauListeBateau.Size = new System.Drawing.Size(509, 573);
-            this.tableauListeBateau.TabIndex = 2;
-            this.tableauListeBateau.UseCompatibleStateImageBehavior = false;
-            this.tableauListeBateau.View = System.Windows.Forms.View.Details;
-            // 
-            // nomColoneTailleBateau
-            // 
-            this.nomColoneTailleBateau.Text = "Taille";
-            this.nomColoneTailleBateau.Width = 91;
-            // 
-            // nomColonePoidsBateau
-            // 
-            this.nomColonePoidsBateau.Text = "Poids";
-            this.nomColonePoidsBateau.Width = 77;
-            // 
-            // nomColoneMatieresDangereusesBateau
-            // 
-            this.nomColoneMatieresDangereusesBateau.Text = "Matières dangereuses";
-            this.nomColoneMatieresDangereusesBateau.Width = 158;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Width = 91;
-            // 
-            // nomColoneArmateurBateau
-            // 
-            this.nomColoneArmateurBateau.Text = "Armateurs";
-            this.nomColoneArmateurBateau.Width = 88;
-            // 
             // armateursOnglet
             // 
             this.armateursOnglet.Location = new System.Drawing.Point(4, 25);
@@ -217,6 +177,48 @@
             this.cargaisonsOnglet.TabIndex = 2;
             this.cargaisonsOnglet.Text = "Cargaisons";
             this.cargaisonsOnglet.UseVisualStyleBackColor = true;
+            // 
+            // nomColoneTailleBateau
+            // 
+            this.nomColoneTailleBateau.Text = "Taille";
+            this.nomColoneTailleBateau.Width = 75;
+            // 
+            // nomColonePoidsBateau
+            // 
+            this.nomColonePoidsBateau.Text = "Poids";
+            this.nomColonePoidsBateau.Width = 75;
+            // 
+            // nomColoneMatieresDangereusesBateau
+            // 
+            this.nomColoneMatieresDangereusesBateau.Text = "Matières dangereuses";
+            this.nomColoneMatieresDangereusesBateau.Width = 80;
+            // 
+            // nomColoneCargaisonsBateau
+            // 
+            this.nomColoneCargaisonsBateau.Text = "Cargaisons";
+            this.nomColoneCargaisonsBateau.Width = 75;
+            // 
+            // nomColoneArmateurBateau
+            // 
+            this.nomColoneArmateurBateau.Text = "Armateurs";
+            this.nomColoneArmateurBateau.Width = 75;
+            // 
+            // tableauListeBateau
+            // 
+            this.tableauListeBateau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.nomColoneTailleBateau,
+            this.nomColonePoidsBateau,
+            this.nomColoneMatieresDangereusesBateau,
+            this.nomColoneCargaisonsBateau,
+            this.nomColoneArmateurBateau});
+            this.tableauListeBateau.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableauListeBateau.GridLines = true;
+            this.tableauListeBateau.Location = new System.Drawing.Point(3, 2);
+            this.tableauListeBateau.Name = "tableauListeBateau";
+            this.tableauListeBateau.Size = new System.Drawing.Size(517, 579);
+            this.tableauListeBateau.TabIndex = 2;
+            this.tableauListeBateau.UseCompatibleStateImageBehavior = false;
+            this.tableauListeBateau.View = System.Windows.Forms.View.Details;
             // 
             // VuePrincipale
             // 
@@ -259,7 +261,7 @@
         private System.Windows.Forms.ColumnHeader nomColoneTailleBateau;
         private System.Windows.Forms.ColumnHeader nomColonePoidsBateau;
         private System.Windows.Forms.ColumnHeader nomColoneMatieresDangereusesBateau;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader nomColoneCargaisonsBateau;
         private System.Windows.Forms.ColumnHeader nomColoneArmateurBateau;
     }
 }

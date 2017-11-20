@@ -17,7 +17,7 @@ namespace projet_portuaire {
 
         public void modifierListPort1()
         {
-            VuePrincipale.creeItemList(listView, "TOTO/ZDZQD/ZDQZD/ZDQZD/ZQDQZD");
+            VuePrincipale.creeItemList(listView, "Grand/Gros/Oui très.../Hein ?/Alberd bernard");
         }
     }
 }
