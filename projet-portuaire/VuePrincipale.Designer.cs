@@ -31,30 +31,26 @@
             this.panelImage = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageGoogle = new System.Windows.Forms.PictureBox();
             this.panelTab = new System.Windows.Forms.Panel();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.bateauxOnglet = new System.Windows.Forms.TabPage();
-            this.armateursOnglet = new System.Windows.Forms.TabPage();
-            this.cargaisonsOnglet = new System.Windows.Forms.TabPage();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.vueListeBateau = new System.Windows.Forms.ListView();
             this.nomColoneTailleBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nomColonePoidsBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nomColoneMatieresDangereusesBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nomColoneArmateurBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.armateursOnglet = new System.Windows.Forms.TabPage();
+            this.cargaisonsOnglet = new System.Windows.Forms.TabPage();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panelImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageGoogle)).BeginInit();
             this.panelTab.SuspendLayout();
             this.tabControl.SuspendLayout();
@@ -65,10 +61,8 @@
             // 
             this.panelImage.Controls.Add(this.pictureBox6);
             this.panelImage.Controls.Add(this.pictureBox5);
-            this.panelImage.Controls.Add(this.pictureBox4);
             this.panelImage.Controls.Add(this.pictureBox3);
             this.panelImage.Controls.Add(this.pictureBox2);
-            this.panelImage.Controls.Add(this.pictureBox1);
             this.panelImage.Controls.Add(this.imageGoogle);
             this.panelImage.Location = new System.Drawing.Point(12, 12);
             this.panelImage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -98,17 +92,6 @@
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::projet_portuaire.Properties.Resources.markerRouge;
-            this.pictureBox4.Location = new System.Drawing.Point(277, 430);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::projet_portuaire.Properties.Resources.markerRouge;
@@ -130,17 +113,6 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::projet_portuaire.Properties.Resources.markerRouge;
-            this.pictureBox1.Location = new System.Drawing.Point(225, 362);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // imageGoogle
             // 
@@ -185,27 +157,6 @@
             this.bateauxOnglet.Text = "Bateaux";
             this.bateauxOnglet.UseVisualStyleBackColor = true;
             // 
-            // armateursOnglet
-            // 
-            this.armateursOnglet.Location = new System.Drawing.Point(4, 25);
-            this.armateursOnglet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.armateursOnglet.Name = "armateursOnglet";
-            this.armateursOnglet.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.armateursOnglet.Size = new System.Drawing.Size(523, 583);
-            this.armateursOnglet.TabIndex = 1;
-            this.armateursOnglet.Text = "Armateurs";
-            this.armateursOnglet.UseVisualStyleBackColor = true;
-            // 
-            // cargaisonsOnglet
-            // 
-            this.cargaisonsOnglet.Location = new System.Drawing.Point(4, 25);
-            this.cargaisonsOnglet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cargaisonsOnglet.Name = "cargaisonsOnglet";
-            this.cargaisonsOnglet.Size = new System.Drawing.Size(523, 583);
-            this.cargaisonsOnglet.TabIndex = 2;
-            this.cargaisonsOnglet.Text = "Cargaisons";
-            this.cargaisonsOnglet.UseVisualStyleBackColor = true;
-            // 
             // vueListeBateau
             // 
             this.vueListeBateau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -246,6 +197,27 @@
             this.nomColoneArmateurBateau.Text = "Armateurs";
             this.nomColoneArmateurBateau.Width = 88;
             // 
+            // armateursOnglet
+            // 
+            this.armateursOnglet.Location = new System.Drawing.Point(4, 25);
+            this.armateursOnglet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.armateursOnglet.Name = "armateursOnglet";
+            this.armateursOnglet.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.armateursOnglet.Size = new System.Drawing.Size(523, 583);
+            this.armateursOnglet.TabIndex = 1;
+            this.armateursOnglet.Text = "Armateurs";
+            this.armateursOnglet.UseVisualStyleBackColor = true;
+            // 
+            // cargaisonsOnglet
+            // 
+            this.cargaisonsOnglet.Location = new System.Drawing.Point(4, 25);
+            this.cargaisonsOnglet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cargaisonsOnglet.Name = "cargaisonsOnglet";
+            this.cargaisonsOnglet.Size = new System.Drawing.Size(523, 583);
+            this.cargaisonsOnglet.TabIndex = 2;
+            this.cargaisonsOnglet.Text = "Cargaisons";
+            this.cargaisonsOnglet.UseVisualStyleBackColor = true;
+            // 
             // VuePrincipale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -259,10 +231,8 @@
             this.panelImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageGoogle)).EndInit();
             this.panelTab.ResumeLayout(false);
             this.tabControl.ResumeLayout(false);
@@ -281,10 +251,8 @@
         private System.Windows.Forms.TabPage bateauxOnglet;
         private System.Windows.Forms.PictureBox imageGoogle;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ListView vueListeBateau;

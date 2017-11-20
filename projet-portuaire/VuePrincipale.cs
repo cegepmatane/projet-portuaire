@@ -13,40 +13,19 @@ namespace projet_portuaire{
         Fenetre fenetrePopUp;
         public VuePrincipale(){
             InitializeComponent();
-            initialisationImage();
-        }
-
-        private void initialisationImage()
-        {
-            
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            fenetrePopUp = new Fenetre();
-            fenetrePopUp.Show();
-            ListViewItem listeItemVue = new ListViewItem("Hello");
-            listeItemVue.SubItems.Add("Mon");
-            listeItemVue.SubItems.Add("Nom");
-            listeItemVue.SubItems.Add("Est");
-            listeItemVue.SubItems.Add("Francis");
-            vueListeBateau.Items.Add(listeItemVue);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             fenetrePopUp = new Fenetre();
             fenetrePopUp.Show();
+
+            creeItemList(vueListeBateau, "ZDZQD/qzdqzd/A/zdz/ZZ");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            fenetrePopUp = new Fenetre();
-            fenetrePopUp.Show();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
+            creeItemList(vueListeBateau, "Hello/Mon/Nom/Est/Francis");
             fenetrePopUp = new Fenetre();
             fenetrePopUp.Show();
         }
@@ -63,8 +42,23 @@ namespace projet_portuaire{
             fenetrePopUp.Show();
         }
 
-        private void bateauTableTemplate_Paint(object sender, PaintEventArgs e)
+        private void creeItemList(ListView listView, String chaine)
         {
+            var chaineCoupee = chaine.Split('/');
+            listView.Items.Clear();
+            ListViewItem listeItemVue = null;
+            for (int i = 0; i < chaineCoupee.Length; i++)
+            {
+                if (i == 0)
+                {
+                    listeItemVue = new ListViewItem(chaineCoupee[i]);
+                }
+                else
+                {
+                    listeItemVue.SubItems.Add(chaineCoupee[i]);
+                }
+            }
+            listView.Items.Add(listeItemVue);
         }
     }
 }
