@@ -9,7 +9,6 @@ C:\Users\Maxime\Desktop\Cours\Projet BDD\Projet Git\projet-portuaire\projet-port
 C:\Users\Maxime\Desktop\Cours\Projet BDD\Projet Git\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.exe
 C:\Users\Maxime\Desktop\Cours\Projet BDD\Projet Git\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.pdb
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\bin\Debug\projet-portuaire.exe.config
-D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.csprojResolveAssemblyReference.cache
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet_portuaire.VuePrincipale.resources
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet_portuaire.Properties.Resources.resources
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.csproj.GenerateResource.Cache
@@ -17,3 +16,5 @@ D:\ProjetDotNet\projet-portuaire\projet-portuaire\bin\Debug\projet-portuaire.exe
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\bin\Debug\projet-portuaire.pdb
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.exe
 D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.pdb
+D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet-portuaire.csprojResolveAssemblyReference.cache
+D:\ProjetDotNet\projet-portuaire\projet-portuaire\obj\Debug\projet_portuaire.Fenetre.resources
