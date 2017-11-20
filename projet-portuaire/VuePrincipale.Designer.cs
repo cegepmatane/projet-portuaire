@@ -37,7 +37,7 @@
             this.panelTab = new System.Windows.Forms.Panel();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.bateauxOnglet = new System.Windows.Forms.TabPage();
-            this.vueListeBateau = new System.Windows.Forms.ListView();
+            this.tableauListeBateau = new System.Windows.Forms.ListView();
             this.nomColoneTailleBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nomColonePoidsBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nomColoneMatieresDangereusesBateau = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -147,7 +147,7 @@
             // 
             // bateauxOnglet
             // 
-            this.bateauxOnglet.Controls.Add(this.vueListeBateau);
+            this.bateauxOnglet.Controls.Add(this.tableauListeBateau);
             this.bateauxOnglet.Location = new System.Drawing.Point(4, 25);
             this.bateauxOnglet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bateauxOnglet.Name = "bateauxOnglet";
@@ -157,21 +157,21 @@
             this.bateauxOnglet.Text = "Bateaux";
             this.bateauxOnglet.UseVisualStyleBackColor = true;
             // 
-            // vueListeBateau
+            // tableauListeBateau
             // 
-            this.vueListeBateau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.tableauListeBateau.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.nomColoneTailleBateau,
             this.nomColonePoidsBateau,
             this.nomColoneMatieresDangereusesBateau,
             this.columnHeader4,
             this.nomColoneArmateurBateau});
-            this.vueListeBateau.GridLines = true;
-            this.vueListeBateau.Location = new System.Drawing.Point(8, 5);
-            this.vueListeBateau.Name = "vueListeBateau";
-            this.vueListeBateau.Size = new System.Drawing.Size(509, 573);
-            this.vueListeBateau.TabIndex = 2;
-            this.vueListeBateau.UseCompatibleStateImageBehavior = false;
-            this.vueListeBateau.View = System.Windows.Forms.View.Details;
+            this.tableauListeBateau.GridLines = true;
+            this.tableauListeBateau.Location = new System.Drawing.Point(8, 5);
+            this.tableauListeBateau.Name = "tableauListeBateau";
+            this.tableauListeBateau.Size = new System.Drawing.Size(509, 573);
+            this.tableauListeBateau.TabIndex = 2;
+            this.tableauListeBateau.UseCompatibleStateImageBehavior = false;
+            this.tableauListeBateau.View = System.Windows.Forms.View.Details;
             // 
             // nomColoneTailleBateau
             // 
@@ -255,7 +255,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ListView vueListeBateau;
+        private System.Windows.Forms.ListView tableauListeBateau;
         private System.Windows.Forms.ColumnHeader nomColoneTailleBateau;
         private System.Windows.Forms.ColumnHeader nomColonePoidsBateau;
         private System.Windows.Forms.ColumnHeader nomColoneMatieresDangereusesBateau;
