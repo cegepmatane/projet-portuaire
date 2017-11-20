@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace projet_portuaire {
-    class VueListBateau {
+    class VueListBateau
+    {
+        private ListView listView;
+
         public VueListBateau(ListView listView)
         {
-            Console.Write("Test");
+            this.listView = listView;
+        }
+
+        public void modifierListPort1()
+        {
+            VuePrincipale.creeItemList(listView, "TOTO/ZDZQD/ZDQZD/ZDQZD/ZQDQZD");
         }
     }
 }
